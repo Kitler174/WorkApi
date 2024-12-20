@@ -1,0 +1,219 @@
+[
+  {
+    "ContainingType": "WorkAPI.Controllers.AuthController",
+    "Method": "Check",
+    "RelativePath": "api/Auth/check_token/{token}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "token",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WorkAPI.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "login",
+        "Type": "WorkAPI.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WorkAPI.Controllers.KomunikatorController",
+    "Method": "GetKomunikatory",
+    "RelativePath": "GetAll/{odbiorca}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "odbiorca",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WorkAPI.Controllers.KomunikatorController",
+    "Method": "GetAllUnread",
+    "RelativePath": "GetAllUnread/{odbiorca}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "odbiorca",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WorkAPI.Controllers.KomunikatorController",
+    "Method": "GetKomunikatorById",
+    "RelativePath": "GetById/{id}/{odbiorca}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "odbiorca",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WorkAPI.Controllers.ZamowieniaController",
+    "Method": "GetOrders",
+    "RelativePath": "GetOrders/{odbiorca}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "odbiorca",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WorkAPI.Controllers.KomunikatorController",
+    "Method": "GetReceived",
+    "RelativePath": "GetReceived/{odbiorca}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "odbiorca",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WorkAPI.Controllers.ZamowieniaController",
+    "Method": "GetSeller",
+    "RelativePath": "GetSeller/{odbiorca}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "odbiorca",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WorkAPI.Controllers.KomunikatorController",
+    "Method": "GetSended",
+    "RelativePath": "GetSended/{nadawca}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "nadawca",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WorkAPI.Controllers.ZamowieniaController",
+    "Method": "GetWarehouse",
+    "RelativePath": "GetWarehouse",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WorkAPI.Controllers.KomunikatorController",
+    "Method": "Send",
+    "RelativePath": "Send/{odbiorcy}",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "odbiorcy",
+        "Type": "System.String",
+        "IsRequired": true
+      },
+      {
+        "Name": "komunikator",
+        "Type": "WorkAPI.Models.Komunikator",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WorkAPI.Controllers.ZamowieniaController",
+    "Method": "SendOrder",
+    "RelativePath": "SendOrder",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "zamowienia",
+        "Type": "WorkAPI.Models.Zamowienie",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "WorkAPI.Controllers.KomunikatorController",
+    "Method": "UpdateKomunikatorStatus",
+    "RelativePath": "UpdateMessage/{id}/{odbiorca}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "odbiorca",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
