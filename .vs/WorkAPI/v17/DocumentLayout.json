@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\mateu\\Desktop\\WorkApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\controllers\\magazyncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:controllers\\magazyncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\services\\magazynservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:services\\magazynservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\models\\magazynek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:models\\magazynek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\repositories\\magazynrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:repositories\\magazynrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\models\\magazynek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:models\\magazynek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\controllers\\magazyncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:controllers\\magazyncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\services\\magazynservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:services\\magazynservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\services\\zamowieniaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,10 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\repositories\\zamowieniarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:repositories\\zamowieniarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\repositories\\komunikatorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -78,63 +78,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "MagazynController.cs",
               "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Controllers\\MagazynController.cs",
               "RelativeDocumentMoniker": "Controllers\\MagazynController.cs",
               "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Controllers\\MagazynController.cs",
               "RelativeToolTip": "Controllers\\MagazynController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABQAAAAYAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T18:25:45.118Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "ZamowieniaController.cs",
-              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Controllers\\ZamowieniaController.cs",
-              "RelativeDocumentMoniker": "Controllers\\ZamowieniaController.cs",
-              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Controllers\\ZamowieniaController.cs",
-              "RelativeToolTip": "Controllers\\ZamowieniaController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBMAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T18:25:14.373Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "MagazynServices.cs",
-              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Services\\MagazynServices.cs",
-              "RelativeDocumentMoniker": "Services\\MagazynServices.cs",
-              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Services\\MagazynServices.cs",
-              "RelativeToolTip": "Services\\MagazynServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T18:25:04.58Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "MagazynRepository.cs",
               "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Repositories\\MagazynRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\MagazynRepository.cs",
               "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Repositories\\MagazynRepository.cs",
               "RelativeToolTip": "Repositories\\MagazynRepository.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAswBwAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAABMAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-18T18:24:42.706Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ZamowieniaRepository.cs",
               "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Repositories\\ZamowieniaRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\ZamowieniaRepository.cs",
@@ -143,6 +117,56 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-14T12:05:22.81Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGsAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:19:50.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Magazynek.cs",
+              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Models\\Magazynek.cs",
+              "RelativeDocumentMoniker": "Models\\Magazynek.cs",
+              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Models\\Magazynek.cs",
+              "RelativeToolTip": "Models\\Magazynek.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAoAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:22:25.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MagazynServices.cs",
+              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Services\\MagazynServices.cs",
+              "RelativeDocumentMoniker": "Services\\MagazynServices.cs",
+              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Services\\MagazynServices.cs",
+              "RelativeToolTip": "Services\\MagazynServices.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:25:04.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ZamowieniaController.cs",
+              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Controllers\\ZamowieniaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ZamowieniaController.cs",
+              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Controllers\\ZamowieniaController.cs",
+              "RelativeToolTip": "Controllers\\ZamowieniaController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBMAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-18T18:25:14.373Z"
             },
             {
               "$type": "Document",
@@ -158,32 +182,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Magazynek.cs",
-              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Models\\Magazynek.cs",
-              "RelativeDocumentMoniker": "Models\\Magazynek.cs",
-              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Models\\Magazynek.cs",
-              "RelativeToolTip": "Models\\Magazynek.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T18:22:25.519Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGsAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T18:19:50.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "ZamowieniaService.cs",
               "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Services\\ZamowieniaService.cs",
               "RelativeDocumentMoniker": "Services\\ZamowieniaService.cs",
@@ -191,8 +190,7 @@
               "RelativeToolTip": "Services\\ZamowieniaService.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAwwBoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T18:28:59.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-18T18:28:59.591Z"
             },
             {
               "$type": "Document",

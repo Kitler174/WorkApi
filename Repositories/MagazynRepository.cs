@@ -30,7 +30,7 @@ namespace WorkAPI.Repositories
         {
             try
             {
-                return _context.magazynek.OrderBy(m => m.Id).ToList();
+                return _context.magazynek.OrderBy(m => m.Id).Where(m => m.status_dokum == "r").ToList();
             }
             catch (Exception ex)
             {
