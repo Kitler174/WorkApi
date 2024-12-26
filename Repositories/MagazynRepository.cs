@@ -26,5 +26,18 @@ namespace WorkAPI.Repositories
                 throw;
             }
         }
+        public IEnumerable<Magazynek> GetProd()
+        {
+            try
+            {
+                return _context.magazynek.OrderBy(m => m.Id).ToList();
+            }
+            catch (Exception ex)
+            {
+                // Logowanie wyjątku
+                Console.WriteLine($"Błąd w GetSeller: {ex.Message}");
+                throw;
+            }
+        }
     }
 }

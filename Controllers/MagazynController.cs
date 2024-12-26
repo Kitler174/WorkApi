@@ -24,6 +24,12 @@ public class MagazynController : ControllerBase
         var lista = _serv.GetWar();
         return Ok(lista);
     }
+    [HttpGet("/GetProducts")]
+    public IActionResult GetProd()
+    {
+        var lista = _serv.GetProd();
+        return Ok(lista);
+    }
 
 }
 

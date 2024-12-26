@@ -17,5 +17,9 @@ namespace WorkAPI.Services
         {
             return _repository.GetWar();
         }
+        public IEnumerable<Magazynek> GetProd()
+        {
+            return _repository.GetProd();
+        }
     }
 }
