@@ -26,11 +26,11 @@ namespace WorkAPI.Repositories
                 throw;
             }
         }
-        public IEnumerable<Magazynek> GetProd()
+        public IEnumerable<Magazynek> GetProd(string mag)
         {
             try
             {
-                return _context.magazynek.OrderBy(m => m.Id).Where(m => m.status_dokum == "r").ToList();
+                return _context.magazynek.OrderBy(m => m.Id).Where(m => ((m.status_dokum == "r") && (m.nr_magazynu == mag))).ToList();
             }
             catch (Exception ex)
             {

@@ -17,9 +17,9 @@ namespace WorkAPI.Services
         {
             return _repository.GetWar();
         }
-        public IEnumerable<Magazynek> GetProd()
+        public IEnumerable<Magazynek> GetProd(string mag)
         {
-            return _repository.GetProd();
+            return _repository.GetProd(mag);
         }
     }
 }

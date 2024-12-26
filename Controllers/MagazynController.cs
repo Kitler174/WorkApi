@@ -24,10 +24,10 @@ public class MagazynController : ControllerBase
         var lista = _serv.GetWar();
         return Ok(lista);
     }
-    [HttpGet("/GetProducts")]
-    public IActionResult GetProd()
+    [HttpGet("/GetProducts/{mag}")]
+    public IActionResult GetProd(string mag)
     {
-        var lista = _serv.GetProd();
+        var lista = _serv.GetProd(mag);
         return Ok(lista);
     }
 
