@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Http.HttpResults;
+using Microsoft.EntityFrameworkCore;
 using WorkAPI.Contexts;
 using WorkAPI.Models;
 
@@ -30,7 +31,24 @@ namespace WorkAPI.Repositories
         {
             try
             {
-                return _context.magazynek.OrderBy(m => m.Id).Where(m => ((m.status_dokum == "r") && (m.nr_magazynu == mag))).ToList();
+                return _context.magazynek.OrderBy(m => m.Id).Where(m => (((m.status_dokum == "r") || (m.status_dokum == "o") || (m.status_dokum == "d")) && (m.nr_magazynu == mag))).ToList();
+            }
+            catch (Exception ex)
+            {
+                // Logowanie wyjątku
+                Console.WriteLine($"Błąd w GetSeller: {ex.Message}");
+                throw;
+            }
+        }
+        public int ChangePos(int Id, decimal ilosc)
+        {
+            try
+            {
+                var pozycjaa = _context.magazynek.FirstOrDefault(p => p.Id == Id);
+                pozycjaa.status_dokum = "z";
+                pozycjaa.ilosc = pozycjaa.ilosc - ilosc;
+                _context.SaveChanges();
+                return 0;
             }
             catch (Exception ex)
             {

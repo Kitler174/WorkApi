@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mateu\\Desktop\\WorkAPI\\WorkAPI.csproj": {}
+    "C:\\Users\\mateu\\Desktop\\WorkApi\\WorkAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mateu\\Desktop\\WorkAPI\\WorkAPI.csproj": {
+    "C:\\Users\\mateu\\Desktop\\WorkApi\\WorkAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mateu\\Desktop\\WorkAPI\\WorkAPI.csproj",
+        "projectUniqueName": "C:\\Users\\mateu\\Desktop\\WorkApi\\WorkAPI.csproj",
         "projectName": "WorkAPI",
-        "projectPath": "C:\\Users\\mateu\\Desktop\\WorkAPI\\WorkAPI.csproj",
+        "projectPath": "C:\\Users\\mateu\\Desktop\\WorkApi\\WorkAPI.csproj",
         "packagesPath": "C:\\Users\\mateu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mateu\\Desktop\\WorkAPI\\obj\\",
+        "outputPath": "C:\\Users\\mateu\\Desktop\\WorkApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -43,8 +42,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -94,7 +94,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

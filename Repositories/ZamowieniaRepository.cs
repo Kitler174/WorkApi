@@ -231,8 +231,6 @@ namespace WorkAPI.Repositories
                 }
 
                 return mag;
-
-                return mag;
             }
             catch (Exception ex)
             {

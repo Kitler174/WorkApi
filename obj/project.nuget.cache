@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3Pp1BcVl0zM=",
+  "dgSpecHash": "VOV2cH5s8Y0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\mateu\\Desktop\\WorkAPI\\WorkAPI.csproj",
+  "projectFilePath": "C:\\Users\\mateu\\Desktop\\WorkApi\\WorkAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mateu\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\8.0.7\\microsoft.aspnetcore.authentication.jwtbearer.8.0.7.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\microsoft.entityframeworkcore\\8.0.7\\microsoft.entityframeworkcore.8.0.7.nupkg.sha512",
@@ -34,5 +34,16 @@
     "C:\\Users\\mateu\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.4.0\\swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
     "C:\\Users\\mateu\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.0.1\\system.identitymodel.tokens.jwt.8.0.1.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "NU1903",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Pakiet „Microsoft.Extensions.Caching.Memory” 8.0.0 ma znane wysoka luki w zabezpieczeniach o ważności, https://github.com/advisories/GHSA-qj66-m88j-hmgj",
+      "libraryId": "Microsoft.Extensions.Caching.Memory",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

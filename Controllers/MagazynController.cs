@@ -30,6 +30,11 @@ public class MagazynController : ControllerBase
         var lista = _serv.GetProd(mag);
         return Ok(lista);
     }
-
+    [HttpGet("/ChangeProduct/{id}/{val}")]
+    public IActionResult ChangePos(int id, int val)
+    {
+        _serv.ChangePos(id,val);
+        return Ok();
+    }
 }
 
