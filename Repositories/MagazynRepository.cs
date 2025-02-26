@@ -40,11 +40,11 @@ namespace WorkAPI.Repositories
                 throw;
             }
         }
-        public int ChangePos(int Id, decimal ilosc)
+        public int ChangePos(string Id, decimal ilosc)
         {
             try
             {
-                var pozycjaa = _context.magazynek.FirstOrDefault(p => p.Id == Id);
+                var pozycjaa = _context.magazynek.FirstOrDefault(p => p.indeks== Id);
                 pozycjaa.status_dokum = "z";
                 pozycjaa.ilosc = pozycjaa.ilosc - ilosc;
                 _context.SaveChanges();

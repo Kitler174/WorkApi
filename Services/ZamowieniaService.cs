@@ -60,7 +60,7 @@ namespace WorkAPI.Services
                 zamowienie.NumerZamowieniaKlienta = Guid.NewGuid().ToString();
             }
             var zmien = Guid.NewGuid().ToString();
-            zamowienie.NumerZamowienia = zmien;
+            zamowienie.NumerZamowienia ??= zmien;
             foreach (var pozycja in zamowienie.PozycjeZamowienia)
             {
                 pozycja.NumerZamowienia = zmien;

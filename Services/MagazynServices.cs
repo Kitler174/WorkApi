@@ -21,7 +21,7 @@ namespace WorkAPI.Services
         {
             return _repository.GetProd(mag);
         }
-        public int ChangePos(int Id, decimal ilosc)
+        public int ChangePos(string Id, decimal ilosc)
         {
             _repository.ChangePos(Id,ilosc);
             return 0;

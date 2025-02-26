@@ -31,7 +31,7 @@ public class MagazynController : ControllerBase
         return Ok(lista);
     }
     [HttpGet("/ChangeProduct/{id}/{val}")]
-    public IActionResult ChangePos(int id, int val)
+    public IActionResult ChangePos(string id, int val)
     {
         _serv.ChangePos(id,val);
         return Ok();

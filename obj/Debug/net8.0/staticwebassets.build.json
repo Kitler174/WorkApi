@@ -1,11 +1,12 @@
 {
   "Version": 1,
-  "Hash": "EsWpr21twNAWfw7eRXqlGaYr3fJNsAVM9exkgv9UhFM=",
+  "Hash": "I/GdDAG1yvyOsRJ13b3rALi3Les8g9xBCYw3MmXr4A4=",
   "Source": "WorkAPI",
   "BasePath": "_content/WorkAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
   "DiscoveryPatterns": [],
-  "Assets": []
+  "Assets": [],
+  "Endpoints": []
 }

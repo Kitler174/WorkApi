@@ -3,60 +3,8 @@
   "WorkspaceRootPath": "C:\\Users\\mateu\\Desktop\\WorkApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\repositories\\magazynrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:repositories\\magazynrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\services\\magazynservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:services\\magazynservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\controllers\\magazyncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:controllers\\magazyncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\controllers\\zamowieniacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:controllers\\zamowieniacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\models\\magazynek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:models\\magazynek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\services\\zamowieniaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:services\\zamowieniaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\repositories\\zamowieniarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:repositories\\zamowieniarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\repositories\\komunikatorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:repositories\\komunikatorrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\contexts\\workcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:contexts\\workcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\controllers\\komunikatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:controllers\\komunikatorcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\models\\produkty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:models\\produkty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\models\\komunikator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:models\\komunikator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\models\\magazyn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:models\\magazyn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\docker-compose.yml||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -67,8 +15,8 @@
       "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\models\\kontrahent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:models\\kontrahent.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\controllers\\zamowieniacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:controllers\\zamowieniacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -78,32 +26,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MagazynController.cs",
-              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Controllers\\MagazynController.cs",
-              "RelativeDocumentMoniker": "Controllers\\MagazynController.cs",
-              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Controllers\\MagazynController.cs",
-              "RelativeToolTip": "Controllers\\MagazynController.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAB0AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T18:25:45.118Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Magazynek.cs",
-              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Models\\Magazynek.cs",
-              "RelativeDocumentMoniker": "Models\\Magazynek.cs",
-              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Models\\Magazynek.cs",
-              "RelativeToolTip": "Models\\Magazynek.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAuwAoAAABMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T18:22:25.519Z"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 3,
@@ -112,178 +36,50 @@
               "RelativeDocumentMoniker": "Controllers\\ZamowieniaController.cs",
               "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Controllers\\ZamowieniaController.cs",
               "RelativeToolTip": "Controllers\\ZamowieniaController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBMAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAD4AAAAAAAAAAAAuwEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T18:25:14.373Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MagazynServices.cs",
-              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Services\\MagazynServices.cs",
-              "RelativeDocumentMoniker": "Services\\MagazynServices.cs",
-              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Services\\MagazynServices.cs",
-              "RelativeToolTip": "Services\\MagazynServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T18:25:04.58Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MagazynRepository.cs",
-              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Repositories\\MagazynRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\MagazynRepository.cs",
-              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Repositories\\MagazynRepository.cs",
-              "RelativeToolTip": "Repositories\\MagazynRepository.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAqwCsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T18:24:42.706Z",
+              "WhenOpened": "2025-02-26T17:56:03.156Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAFcAAAAAAAAAAAAAAGsAAAAiAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T18:19:50.562Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "ZamowieniaRepository.cs",
-              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Repositories\\ZamowieniaRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\ZamowieniaRepository.cs",
-              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Repositories\\ZamowieniaRepository.cs",
-              "RelativeToolTip": "Repositories\\ZamowieniaRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGEAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T12:05:22.81Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "KomunikatorRepository.cs",
-              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Repositories\\KomunikatorRepository.cs",
-              "RelativeDocumentMoniker": "Repositories\\KomunikatorRepository.cs",
-              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Repositories\\KomunikatorRepository.cs",
-              "RelativeToolTip": "Repositories\\KomunikatorRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T18:24:18.592Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ZamowieniaService.cs",
-              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Services\\ZamowieniaService.cs",
-              "RelativeDocumentMoniker": "Services\\ZamowieniaService.cs",
-              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Services\\ZamowieniaService.cs",
-              "RelativeToolTip": "Services\\ZamowieniaService.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAwwBoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T18:28:59.591Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "WorkContext.cs",
-              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Contexts\\WorkContext.cs",
-              "RelativeDocumentMoniker": "Contexts\\WorkContext.cs",
-              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Contexts\\WorkContext.cs",
-              "RelativeToolTip": "Contexts\\WorkContext.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwBEAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T18:29:59.487Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "KomunikatorController.cs",
-              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Controllers\\KomunikatorController.cs",
-              "RelativeDocumentMoniker": "Controllers\\KomunikatorController.cs",
-              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Controllers\\KomunikatorController.cs",
-              "RelativeToolTip": "Controllers\\KomunikatorController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T18:25:19.089Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Produkty.cs",
-              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Models\\Produkty.cs",
-              "RelativeDocumentMoniker": "Models\\Produkty.cs",
-              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Models\\Produkty.cs",
-              "RelativeToolTip": "Models\\Produkty.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T18:23:40.64Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Komunikator.cs",
-              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Models\\Komunikator.cs",
-              "RelativeDocumentMoniker": "Models\\Komunikator.cs",
-              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Models\\Komunikator.cs",
-              "RelativeToolTip": "Models\\Komunikator.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-18T18:22:32.369Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 1,
               "Title": "Docker-compose.yml",
               "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Docker-compose.yml",
               "RelativeDocumentMoniker": "Docker-compose.yml",
               "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Docker-compose.yml",
               "RelativeToolTip": "Docker-compose.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
-              "WhenOpened": "2024-12-18T18:20:17.434Z"
+              "WhenOpened": "2025-02-26T19:33:31.282Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC8AAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T19:29:48.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Dockerfile",
               "RelativeDocumentMoniker": "Dockerfile",
               "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Dockerfile",
               "RelativeToolTip": "Dockerfile",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-18T18:20:13.783Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Magazyn.cs",
-              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Models\\Magazyn.cs",
-              "RelativeDocumentMoniker": "Models\\Magazyn.cs",
-              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Models\\Magazyn.cs",
-              "RelativeToolTip": "Models\\Magazyn.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T12:10:00.688Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Kontrahent.cs",
-              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Models\\Kontrahent.cs",
-              "RelativeDocumentMoniker": "Models\\Kontrahent.cs",
-              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Models\\Kontrahent.cs",
-              "RelativeToolTip": "Models\\Kontrahent.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-14T12:05:13.483Z"
+              "WhenOpened": "2025-02-26T18:56:25.22Z",
+              "EditorCaption": ""
             }
           ]
         }

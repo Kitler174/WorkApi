@@ -10,12 +10,3 @@ services:
     environment:
       - PORT=8080
       - DATABASE_CONNECTION_STRING=server=host.docker.internal;port=3306;database=Baza_danych_testowa;user=root;password=Maba@@22
-  api2:
-    build:
-      context: .
-      dockerfile: Dockerfile  
-    ports:
-      - "9080:9080"
-    environment:
-      - PORT=9080
-      - DATABASE_CONNECTION_STRING=server=host.docker.internal;port=3306;database=Baza_danych_testowa;user=root;password=Maba@@22

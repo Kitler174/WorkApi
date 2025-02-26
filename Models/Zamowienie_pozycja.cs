@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WorkAPI.Models
 {
@@ -39,6 +40,7 @@ namespace WorkAPI.Models
         public DateTime? DataDostawy { get; set; }
 
         /// Numer zamówienia
+        [Column("NumerZamowienia")]
         public string? NumerZamowienia { get; set; }
 
         /// Handlowiec

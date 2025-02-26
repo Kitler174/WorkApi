@@ -46,6 +46,8 @@ builder.Services.AddSwaggerGen(c =>
 // Konfiguracja DbContext dla MariaDB
 var connectionstr = Environment.GetEnvironmentVariable("DATABASE_CONNECTION_STRING");
 var portstr = Environment.GetEnvironmentVariable("PORT");
+//var connectionstr = "server=127.0.0.1;port=3306;database=Baza_danych_testowa;user=root;password=Maba@@22";
+//var portstr = "8080";
 builder.WebHost.ConfigureKestrel(options =>
 {
     int portt = int.Parse(portstr);
@@ -107,6 +109,39 @@ builder.Services.AddScoped<ZamowieniaRepository>();
 builder.Services.AddScoped<MagazynServices>();
 builder.Services.AddScoped<MagazynRepository>();
 var app = builder.Build();
+using (var scope = app.Services.CreateScope())
+{
+    var services = scope.ServiceProvider;
+    try
+    {
+        var context = services.GetRequiredService<WorkContext>();
+
+        // Sprawdzenie połączenia z bazą danych
+        Console.WriteLine("🔄 Sprawdzanie połączenia z bazą danych...");
+        context.Database.OpenConnection();
+        context.Database.CloseConnection();
+        Console.WriteLine("✅ Połączenie z bazą danych działa.");
+
+        // Sprawdzenie, czy istnieje jakaś tabela np. `komunikator`
+        var hasTables = context.Database.ExecuteSqlRaw("SELECT COUNT(*) FROM information_schema.tables WHERE table_schema = DATABASE()") > 0;
+
+        if (!hasTables)
+        {
+            Console.WriteLine("🛠️ Brak tabel – stosowanie migracji...");
+            context.Database.Migrate();
+            Console.WriteLine("✅ Migracje zostały zastosowane.");
+        }
+        else
+        {
+            Console.WriteLine("✅ Tabele już istnieją – migracje pominięte.");
+        }
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"❌ Błąd podczas sprawdzania migracji: {ex.Message}");
+    }
+}
+
 
 if (app.Environment.IsDevelopment())
 {

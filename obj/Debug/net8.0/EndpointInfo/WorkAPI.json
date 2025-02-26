@@ -1,0 +1,1038 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "WorkAPI",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/Auth/login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/LoginModel"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Auth/check_token/{token}": {
+      "get": {
+        "tags": [
+          "Auth"
+        ],
+        "parameters": [
+          {
+            "name": "token",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetAll/{odbiorca}": {
+      "get": {
+        "tags": [
+          "Komunikator"
+        ],
+        "parameters": [
+          {
+            "name": "odbiorca",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetSended/{nadawca}": {
+      "get": {
+        "tags": [
+          "Komunikator"
+        ],
+        "parameters": [
+          {
+            "name": "nadawca",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetReceived/{odbiorca}": {
+      "get": {
+        "tags": [
+          "Komunikator"
+        ],
+        "parameters": [
+          {
+            "name": "odbiorca",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetAllUnread/{odbiorca}": {
+      "get": {
+        "tags": [
+          "Komunikator"
+        ],
+        "parameters": [
+          {
+            "name": "odbiorca",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetById/{id}/{odbiorca}": {
+      "get": {
+        "tags": [
+          "Komunikator"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "odbiorca",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/Send/{odbiorcy}": {
+      "post": {
+        "tags": [
+          "Komunikator"
+        ],
+        "parameters": [
+          {
+            "name": "odbiorcy",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Komunikator"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Komunikator"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Komunikator"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/UpdateMessage/{id}/{odbiorca}": {
+      "put": {
+        "tags": [
+          "Komunikator"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "odbiorca",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetWar": {
+      "get": {
+        "tags": [
+          "Magazyn"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetProducts/{mag}": {
+      "get": {
+        "tags": [
+          "Magazyn"
+        ],
+        "parameters": [
+          {
+            "name": "mag",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/ChangeProduct/{id}/{val}": {
+      "get": {
+        "tags": [
+          "Magazyn"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "val",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetSeller/{odbiorca}": {
+      "get": {
+        "tags": [
+          "Zamowienia"
+        ],
+        "parameters": [
+          {
+            "name": "odbiorca",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetContractor/{odbiorca}": {
+      "get": {
+        "tags": [
+          "Zamowienia"
+        ],
+        "parameters": [
+          {
+            "name": "odbiorca",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetWarehouse": {
+      "get": {
+        "tags": [
+          "Zamowienia"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetOrders/{odbiorca}": {
+      "get": {
+        "tags": [
+          "Zamowienia"
+        ],
+        "parameters": [
+          {
+            "name": "odbiorca",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetItems/{NumerZamowienia}": {
+      "get": {
+        "tags": [
+          "Zamowienia"
+        ],
+        "parameters": [
+          {
+            "name": "NumerZamowienia",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetParams": {
+      "get": {
+        "tags": [
+          "Zamowienia"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/GetFiltered": {
+      "get": {
+        "tags": [
+          "Zamowienia"
+        ],
+        "parameters": [
+          {
+            "name": "nazwa",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "categoryIds",
+            "in": "query",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "string"
+              }
+            }
+          },
+          {
+            "name": "categorypar",
+            "in": "query",
+            "schema": {
+              "type": "array",
+              "items": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/SendOrder": {
+      "post": {
+        "tags": [
+          "Zamowienia"
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Zamowienie"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Zamowienie"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Zamowienie"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/DelPosition/{numerZamowienia}/{pozycja}": {
+      "delete": {
+        "tags": [
+          "Zamowienia"
+        ],
+        "parameters": [
+          {
+            "name": "numerZamowienia",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "pozycja",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/DelOrder/{numerZamowienia}": {
+      "delete": {
+        "tags": [
+          "Zamowienia"
+        ],
+        "parameters": [
+          {
+            "name": "numerZamowienia",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/EditPosition/{numerZamowienia}/{pozycja}/{ilosc}": {
+      "post": {
+        "tags": [
+          "Zamowienia"
+        ],
+        "parameters": [
+          {
+            "name": "numerZamowienia",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "pozycja",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          },
+          {
+            "name": "ilosc",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/AddPosition/{numerZamowienia}": {
+      "post": {
+        "tags": [
+          "Zamowienia"
+        ],
+        "parameters": [
+          {
+            "name": "numerZamowienia",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Zamowienie_pozycja"
+              }
+            },
+            "text/json": {
+              "schema": {
+                "$ref": "#/components/schemas/Zamowienie_pozycja"
+              }
+            },
+            "application/*+json": {
+              "schema": {
+                "$ref": "#/components/schemas/Zamowienie_pozycja"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Komunikator": {
+        "type": "object",
+        "properties": {
+          "nadawca": {
+            "type": "string",
+            "nullable": true
+          },
+          "dataNadania": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "czasNadania": {
+            "$ref": "#/components/schemas/TimeSpan"
+          },
+          "odbiorca": {
+            "type": "string",
+            "nullable": true
+          },
+          "dataOdebrania": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "czasOdebrania": {
+            "$ref": "#/components/schemas/TimeSpan"
+          },
+          "tresc": {
+            "type": "string",
+            "nullable": true
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "nadawcaIp": {
+            "type": "string",
+            "nullable": true
+          },
+          "sysDataRej": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "sysOperatorRej": {
+            "type": "string",
+            "nullable": true
+          },
+          "sysDataMod": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "sysOperatorMod": {
+            "type": "string",
+            "nullable": true
+          },
+          "projekt": {
+            "type": "string",
+            "nullable": true
+          },
+          "nrKontr": {
+            "type": "string",
+            "nullable": true
+          },
+          "zrodlo": {
+            "type": "string",
+            "nullable": true
+          },
+          "idZrodla": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "rodzaj": {
+            "type": "string",
+            "nullable": true
+          },
+          "termin": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "priorytet": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "waznosc": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "idK": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "uwagi": {
+            "type": "string",
+            "nullable": true
+          },
+          "rok": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          },
+          "idProjektu": {
+            "type": "integer",
+            "format": "int32",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Kontrahent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "numerKontrahenta": {
+            "type": "string",
+            "nullable": true
+          },
+          "nazwaKontrahenta": {
+            "type": "string",
+            "nullable": true
+          },
+          "miejscowosc": {
+            "type": "string",
+            "nullable": true
+          },
+          "ulica": {
+            "type": "string",
+            "nullable": true
+          },
+          "numerDomu": {
+            "type": "string",
+            "nullable": true
+          },
+          "numerLokalu": {
+            "type": "string",
+            "nullable": true
+          },
+          "kodPocztowy": {
+            "type": "string",
+            "nullable": true
+          },
+          "kraj": {
+            "type": "string",
+            "nullable": true
+          },
+          "nip": {
+            "type": "string",
+            "nullable": true
+          },
+          "nazwaWysylki": {
+            "type": "string",
+            "nullable": true
+          },
+          "ulicaWysylki": {
+            "type": "string",
+            "nullable": true
+          },
+          "miastoWysylki": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "LoginModel": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "username": {
+            "type": "string",
+            "nullable": true
+          },
+          "password": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "TimeSpan": {
+        "type": "object",
+        "properties": {
+          "ticks": {
+            "type": "integer",
+            "format": "int64"
+          },
+          "days": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "hours": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "milliseconds": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "microseconds": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "nanoseconds": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "minutes": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "seconds": {
+            "type": "integer",
+            "format": "int32",
+            "readOnly": true
+          },
+          "totalDays": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "totalHours": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "totalMilliseconds": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "totalMicroseconds": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "totalNanoseconds": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "totalMinutes": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          },
+          "totalSeconds": {
+            "type": "number",
+            "format": "double",
+            "readOnly": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Zamowienie": {
+        "type": "object",
+        "properties": {
+          "numerZamowieniaKlienta": {
+            "type": "string",
+            "nullable": true
+          },
+          "numerZamowienia": {
+            "type": "string",
+            "nullable": true
+          },
+          "waluta": {
+            "type": "string",
+            "nullable": true
+          },
+          "login": {
+            "type": "string",
+            "nullable": true
+          },
+          "dataZamowienia": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "handlowiec": {
+            "type": "string",
+            "nullable": true
+          },
+          "kontrahent": {
+            "$ref": "#/components/schemas/Kontrahent"
+          },
+          "pozycjeZamowienia": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Zamowienie_pozycja"
+            },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "Zamowienie_pozycja": {
+        "type": "object",
+        "properties": {
+          "zamowienieId": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "pozycja": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "status": {
+            "type": "string",
+            "nullable": true
+          },
+          "index": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "nazwa": {
+            "type": "string",
+            "nullable": true
+          },
+          "nrRysunku": {
+            "type": "string",
+            "nullable": true
+          },
+          "jm": {
+            "type": "string",
+            "nullable": true
+          },
+          "ileZamowiono": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "ilePotwierdzono": {
+            "type": "integer",
+            "format": "int32"
+          },
+          "cena": {
+            "type": "number",
+            "format": "float",
+            "nullable": true
+          },
+          "planowanaDataDostawy": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "dataDostawy": {
+            "type": "string",
+            "format": "date-time",
+            "nullable": true
+          },
+          "numerZamowienia": {
+            "type": "string",
+            "nullable": true
+          },
+          "handlowiec": {
+            "type": "string",
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "apiKey",
+        "description": "Enter 'Bearer' followed by a space and then your JWT token in the format: 'Bearer [token]'. Example: 'Bearer abc123xyz...'.",
+        "name": "Authorization",
+        "in": "header"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

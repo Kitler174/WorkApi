@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace WorkAPI.Models
 {
@@ -9,6 +10,7 @@ namespace WorkAPI.Models
 
         /// Numer zamówienia
         [Key]
+        [Column("NumerZamowienia")]
         public string? NumerZamowienia { get; set; }
 
         /// Waluta
