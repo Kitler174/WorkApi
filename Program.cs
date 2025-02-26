@@ -108,6 +108,8 @@ builder.Services.AddScoped<ZamowieniaService>();
 builder.Services.AddScoped<ZamowieniaRepository>();
 builder.Services.AddScoped<MagazynServices>();
 builder.Services.AddScoped<MagazynRepository>();
+//dotnet ef migrations add InitialCreate
+//dotnet ef database update
 var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {

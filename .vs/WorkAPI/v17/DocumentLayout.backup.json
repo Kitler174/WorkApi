@@ -15,6 +15,14 @@
       "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\models\\magazynek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:models\\magazynek.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\models\\magazyn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:models\\magazyn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|c:\\users\\mateu\\desktop\\workapi\\controllers\\zamowieniacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{BFDC000B-1661-4D00-B2BB-5C08ADAB398B}|WorkAPI.csproj|solutionrelative:controllers\\zamowieniacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -26,11 +34,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ZamowieniaController.cs",
               "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Controllers\\ZamowieniaController.cs",
               "RelativeDocumentMoniker": "Controllers\\ZamowieniaController.cs",
@@ -44,13 +52,39 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Magazyn.cs",
+              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Models\\Magazyn.cs",
+              "RelativeDocumentMoniker": "Models\\Magazyn.cs",
+              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Models\\Magazyn.cs",
+              "RelativeToolTip": "Models\\Magazyn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T19:38:24.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Magazynek.cs",
+              "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Models\\Magazynek.cs",
+              "RelativeDocumentMoniker": "Models\\Magazynek.cs",
+              "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Models\\Magazynek.cs",
+              "RelativeToolTip": "Models\\Magazynek.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T19:38:15.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Docker-compose.yml",
               "DocumentMoniker": "C:\\Users\\mateu\\Desktop\\WorkApi\\Docker-compose.yml",
               "RelativeDocumentMoniker": "Docker-compose.yml",
               "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Docker-compose.yml",
               "RelativeToolTip": "Docker-compose.yml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003775|",
               "WhenOpened": "2025-02-26T19:33:31.282Z",
               "EditorCaption": ""
@@ -63,7 +97,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\mateu\\Desktop\\WorkApi\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAC8AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwDEAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-26T19:29:48.051Z",
               "EditorCaption": ""
